@@ -19,7 +19,7 @@ jobs:
         gemfile: [ rails7 ]
     env: # $BUNDLE_GEMFILE must be set at the job level, so it is set for all steps
       BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/${{ matrix.gemfile }}.gemfile
-      BUNDLER_VERSION: '2.2.32'
+      # BUNDLER_VERSION: '2.2.32'
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
