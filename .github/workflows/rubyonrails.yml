@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         ruby-version: ['3.0', '3.1']
-        rails-version: [ rails6', 'rails7 ]
+        rails-version: [ rails6, rails7 ]
     env: # $BUNDLE_GEMFILE must be set at the job level, so it is set for all steps
       BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/${{ matrix.ruby-version }}/${{ matrix.rails-version }}.gemfile
     steps:
