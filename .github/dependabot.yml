@@ -5,7 +5,17 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
+  - package-ecosystem: "bundler" # See documentation for possible values
     directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    reviewers:
+      - "jacoyutorius"
+  - package-ecosystem: "bundler" # See documentation for possible values
+    directory: "/gemfiles/3.0/rails6.gemfile" # Location of package manifests
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "bundler" # See documentation for possible values
+    directory: "/gemfiles/3.0/rails7.gemfile" # Location of package manifests
     schedule:
       interval: "daily"
