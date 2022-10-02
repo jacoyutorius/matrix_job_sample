@@ -19,3 +19,11 @@ updates:
     directory: "/gemfiles/3.0/rails7.gemfile" # Location of package manifests
     schedule:
       interval: "daily"
+  - package-ecosystem: "bundler" # See documentation for possible values
+    directory: "/gemfiles/3.1/rails6.gemfile" # Location of package manifests
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "bundler" # See documentation for possible values
+    directory: "/gemfiles/3.1/rails7.gemfile" # Location of package manifests
+    schedule:
+      interval: "daily"
