@@ -1,3 +1,5 @@
+[![Ruby on Rails CI](https://github.com/jacoyutorius/matrix_job_sample/actions/workflows/rubyonrails.yml/badge.svg)](https://github.com/jacoyutorius/matrix_job_sample/actions/workflows/rubyonrails.yml)
+
 # 複数の言語・フレームワークバージョンについて Github Actionsでテストする
 
 [https://github.com/jacoyutorius/matrix_job_sample](https://github.com/jacoyutorius/matrix_job_sample)
